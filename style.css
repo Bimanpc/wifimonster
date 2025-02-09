@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.meter {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #333;
+    margin: 20px auto;
+    background-color: #ddd;
+}
+
+.signal {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+}
